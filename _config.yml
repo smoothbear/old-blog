@@ -2,7 +2,7 @@
 title: Smooth Bear
 description: 'Business Card Page'
 url: 'https://github.com/smoothbear'
-baseurl: 'https://github.com/smoothbear'
+baseurl:
 profilepic: '/images/smoothbear.jpg'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
