@@ -1,8 +1,0 @@
-# projects section data
-# If you don't have language feature(language.yml is empty), ignore "i18n" items
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: PEAR
-  gh_user: kjbin0420
-  repo: user_backend
-  img: https://avatars2.githubusercontent.com/u/72546152?s=400&u=2c3eb9c9ddc764b40e898565fabf47ec91876aa3&v=4
-  desc: Daeduk Software Meister High School Report Management Service
