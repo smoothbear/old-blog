@@ -37,8 +37,8 @@ public class UserService {
   }
 }
 ```
-위와 같이 외부에서 생성자를 통해 객체를 주입받고 있다.
-* 이를 의존성 주입(DI : Dependency Injection)이라고 한다.
+<br>위와 같이 외부에서 생성자를 통해 객체를 주입받고 있다.</br>
+<strong>이를 의존성 주입(DI : Dependency Injection)이라고 한다.</strong>
 
 그럼, 의존성 주입을 어떤 것이 해주는 것일까?
 
