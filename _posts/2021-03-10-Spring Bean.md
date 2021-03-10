@@ -19,14 +19,15 @@ Inversion of Control : 제어권 역전(의존관계)
 
 아래의 예시를 보자.
 
-<일반적인 제어권>
+<mark>일반적인 제어권</mark>
+<br>
 ```java
 @Service
 public class UserService {
   private UserRepository userRepository = new UserRepository();
 }
 ```
-<제어권 역전>
+<mark>제어권 역전</mark>
 ```java
 @Service
 public class UserService {
@@ -37,11 +38,13 @@ public class UserService {
   }
 }
 ```
+</br>
 <br>위와 같이 외부에서 생성자를 통해 객체를 주입받고 있다.</br>
 <strong>이를 의존성 주입(DI : Dependency Injection)이라고 한다.</strong>
 
+<br>
 그럼, 의존성 주입을 어떤 것이 해주는 것일까?
-
+</br>
 
 ## Spring IOC Container
 Spring IOC Container란 IOC 기능을 제공해주는 컨테이너이며
