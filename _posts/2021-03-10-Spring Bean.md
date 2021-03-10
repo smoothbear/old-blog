@@ -19,15 +19,15 @@ Inversion of Control : 제어권 역전(의존관계)
     
 아래의 예시를 보자.
     
-   <일반적인 제어권>
-   ```java
+<일반적인 제어권>
+```java
    @Service
    public class UserService {
       private UserRepository userRepository = new UserRepository();
    }
-   ```
-  <제어권 역전>
-   ```java
+```
+<제어권 역전>
+```java
    @Service
    public class UserService {
       private final UserRepository userRepository;
@@ -44,7 +44,6 @@ Inversion of Control : 제어권 역전(의존관계)
   
 
   ## Spring IOC Container
-  -----------------------------------------------
   Spring IOC Container란 IOC 기능을 제공해주는 컨테이너이며
   Bean을 생성하고, 엮고, 제공해주는 역할을 한다.
   BeanFactory나 BeanFactory를 상속받는 클래스가 이 역할을 수행한다.
