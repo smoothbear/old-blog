@@ -38,13 +38,13 @@ public class UserService {
   }
 }
 ```
-</br>
-<br>위와 같이 외부에서 생성자를 통해 객체를 주입받고 있다.</br>
+
+<br>위와 같이 외부에서 생성자를 통해 객체를 주입받고 있다.
 <strong>이를 의존성 주입(DI : Dependency Injection)이라고 한다.</strong>
 
 <br>
 그럼, 의존성 주입을 어떤 것이 해주는 것일까?
-</br>
+
 ## Spring IOC Container
 Spring IOC Container란 IOC 기능을 제공해주는 컨테이너이며
 Bean을 생성하고, 엮고, 제공해주는 역할을 한다.
