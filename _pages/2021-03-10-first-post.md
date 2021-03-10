@@ -1,9 +1,7 @@
 ---
-title: "시작"
-excerpt: "Github Blog"
+title: "Bean?"
+date: "2021-3-10 21:55:00"
 categories:
-  - spring boot
-tags:
   - spring boot
 ---
 
