@@ -4,6 +4,7 @@ date: "2021-3-10 21:55:00"
 categories:
   - spring boot
 ---
+## Spring Bean
 
 나는 Spring Boot를 시작하면서 Bean이라는 녀석을 처음 접하게 되었다.
 
