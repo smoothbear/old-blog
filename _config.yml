@@ -45,7 +45,7 @@ comments:
     issue_term           : # "pathname" (default)
   staticman:
     branch               : "main"
-    endpoint             : "https://api.staticman.net/v3/entry/github/smoothbear/smoothbear.github.io/master/comments"
+    endpoint             : "https://api.staticman.net/v3/entry/github/smoothbear/smoothbear.github.io/main/comments"
 reCaptcha:
   siteKey                :
   secret                 :
