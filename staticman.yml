@@ -1,6 +1,4 @@
 comments:
-  provider: "staticman"
-comments:
   allowedFields      : ["name", "email", "url", "message"]
   branch             : "master"
   commitMessage      : "New comment by {fields.name}"
